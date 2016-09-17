@@ -8,7 +8,10 @@
     "index.js"
   ],
   "scripts": {
-    "test": "node test/index.js | tap-diff"
+    "lint": "xo index.js test",
+    "test-api": "node test/index.js | tap-diff",
+    "test-coverage": "istanbul cover test/index.js",
+    "test": "npm run lint && npm run test-coverage"
   },
   "keywords": [],
   "author": "Jonathan Haines <jonno.haines@gmail.com> (http://barrythepenguin.github.io)",
@@ -24,6 +27,7 @@
     "typography": "^0.13.3"
   },
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "rollup": "^0.35.11",
     "tap-diff": "^0.1.1",
     "tape": "^4.6.0",
