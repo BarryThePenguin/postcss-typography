@@ -1,0 +1,6 @@
+@typography {
+	h1,h2,h3 {
+		font-size: 1lh;
+		margin: 1lh 0;
+	}
+}
