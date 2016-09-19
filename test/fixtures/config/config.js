@@ -16,17 +16,19 @@ module.exports = {
 	baseFontSize: '20px',
 	headerWeight: 400,
 	bodyWeight: 400,
-	overrideStyles: ({rhythm}) => ({
-		'h1,h2': {
-			color: 'inherit',
-			lineHeight: rhythm(2),
-			marginTop: rhythm(2),
-			marginBottom: rhythm(1)
-		},
-		'h3': {
-			lineHeight: rhythm(2),
-			marginTop: rhythm(1),
-			marginBottom: rhythm(1)
-		}
-	})
+	overrideStyles: function (typography) {
+		return {
+			'h1,h2': {
+				color: 'inherit',
+				lineHeight: typography.rhythm(2),
+				marginTop: typography.rhythm(2),
+				marginBottom: typography.rhythm(1)
+			},
+			'h3': {
+				lineHeight: typography.rhythm(2),
+				marginTop: typography.rhythm(1),
+				marginBottom: typography.rhythm(1)
+			}
+		};
+	}
 };
