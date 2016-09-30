@@ -31,7 +31,7 @@
   "dependencies": {
     "object-assign": "^4.1.0",
     "postcss": "^5.2.0",
-    "typography": "^0.13.3"
+    "typography": "^0.14.0"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
