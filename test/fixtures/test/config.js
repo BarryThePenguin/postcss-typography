@@ -1,1 +1,3 @@
-module.export = {};
+module.exports = {
+	includeNormalize: false
+};

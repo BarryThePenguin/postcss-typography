@@ -1,4 +1,5 @@
 module.exports = {
+	includeNormalize: false,
 	googleFonts: [{
 		name: 'EB Garamond',
 		styles: [
