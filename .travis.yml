@@ -5,15 +5,3 @@ node_js:
 sudo: false
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-deploy:
-  - provider: npm
-    email: jonno.haines@gmail.com
-    api_key:
-      secure: mk2WZ1nwE+yTlF8oj8Hfs38YGvjv5w/xhCIdOwebh1n5gglLYo31SaFK6TrmX5Ye3jctwBeNK802DpMPVt55h+LPLr3eDMt258HySV21PKfZFnvRNHaRvbaccNx9xcBrldtV5ooA3hBBtLb++C4Bt+9HcLkkiz+fxXbT+rl0GFxbe2sKd2yui4vhz5Ea3/M6G0ruVGG5PnPV+ftDq48A6StoxOgNyKMC4mfgmYLOr2pcYhwEeJ8KrJxE1Ao/7mws+TyUKs25PWPthfPeKZfvOF/JN5GVoPUoUUv5pACPvI1P/0xDOqcOU54VLX1SziBHubcjdznO2IAxMzBxXWq+jubp+JWv7JscRTlhDF27WdIIwAs20VGqa8oVQ9F4o/izu2ySqF1/PqSPiB6eNBGHBavZc+gBW5vhJQa06YqzMkA23B/w8piwPmnOp7qs726JAbadqKOb0udzND9FxygXzpTSFMRWZuvqSxSL17uPc8hFl3zr7idfSKo+mOxyvmokgsGpX2uHaUzQC9OtTc/ZY/Bp9WKdYBOMs5wKC+9/3Fi6TqlXO6K1m5Tr5rdI+3uzAo08bbwmIYdc5ShQEM+e0JiqlL+JsnShww/G6nPh1lFStyeocMfDgsHnlep1/itG3f1Q9PUHhm6qEUKd4NNAhvBx7y7iRyJrjP66r/fdaMk=
-    on:
-      tags: true
-      node: '6.0'
-    skip_cleanup: true
-    on:
-      tags: true
-      node: '6.0'
