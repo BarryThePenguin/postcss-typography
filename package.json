@@ -38,7 +38,7 @@
     "remark": "^6.0.1",
     "remark-cli": "^2.0.0",
     "remark-preset-wooorm": "^1.0.0",
-    "rollup": "^0.35.11",
+    "rollup": "^0.36.1",
     "tap-diff": "^0.1.1",
     "tape": "^4.6.0",
     "xo": "^0.16.0"
