@@ -1,37 +1,37 @@
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
 
-var test = require('tape');
-var postcss = require('postcss');
-var typography = require('..');
+const test = require('tape');
+const postcss = require('postcss');
+const typography = require('..');
 
-var read = fs.readFileSync;
-var join = path.join;
+const read = fs.readFileSync;
+const join = path.join;
 
-var ROOT = join(__dirname, 'fixtures');
+const ROOT = join(__dirname, 'fixtures');
 
-var fixtures = fs.readdirSync(ROOT);
+const fixtures = fs.readdirSync(ROOT);
 
-test('typography()', function (t) {
+test('typography()', t => {
 	t.is(typeof typography, 'function', 'should be a function');
 
-	t.doesNotThrow(function () {
+	t.doesNotThrow(() => {
 		typography();
 	}, '');
 
 	t.end();
 });
 
-test('fixtures', function (t) {
-	fixtures.filter(function (filepath) {
+test('fixtures', t => {
+	fixtures.filter(filepath => {
 		return filepath.indexOf('.') !== 0;
-	}).forEach(function (fixture) {
-		var filepath = join(ROOT, fixture);
-		var output = read(join(filepath, 'output.css'), 'utf-8');
-		var input = read(join(filepath, 'input.css'), 'utf-8');
-		var config = require(join(filepath, 'config.js'));
-		var processor = postcss([typography(config)]);
-		var result = processor.process(input).css;
+	}).forEach(fixture => {
+		const filepath = join(ROOT, fixture);
+		const output = read(join(filepath, 'output.css'), 'utf-8');
+		const input = read(join(filepath, 'input.css'), 'utf-8');
+		const config = require(join(filepath, 'config.js'));
+		const processor = postcss([typography(config)]);
+		const result = processor.process(input).css;
 
 		t.deepEqual(result, output, 'should work on `' + fixture + '`');
 	});

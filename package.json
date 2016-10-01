@@ -7,6 +7,9 @@
     "lib",
     "index.js"
   ],
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "build-md": "remark . --quiet --frail",
     "build": "npm run build-md",
@@ -29,7 +32,6 @@
   "bugs": "https://github.com/barrythepenguin/postcss-typography/issues",
   "license": "MIT",
   "dependencies": {
-    "object-assign": "^4.1.0",
     "postcss": "^5.2.0",
     "typography": "^0.14.0"
   },
@@ -45,5 +47,8 @@
   "remarkConfig": {
     "output": true,
     "presets": "wooorm"
+  },
+  "xo": {
+    "esnext": true
   }
 }

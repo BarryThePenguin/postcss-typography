@@ -17,7 +17,7 @@ module.exports = {
 	baseFontSize: '20px',
 	headerWeight: 400,
 	bodyWeight: 400,
-	overrideStyles: function (typography) {
+	overrideStyles: typography => {
 		return {
 			'h1,h2': {
 				color: 'inherit',
