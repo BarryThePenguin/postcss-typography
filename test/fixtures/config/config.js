@@ -25,7 +25,7 @@ module.exports = {
 				marginTop: typography.rhythm(2),
 				marginBottom: typography.rhythm(1)
 			},
-			'h3': {
+			h3: {
 				lineHeight: typography.rhythm(2),
 				marginTop: typography.rhythm(1),
 				marginBottom: typography.rhythm(1)

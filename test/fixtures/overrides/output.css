@@ -1,6 +1,5 @@
 html {
-    font-size: 100%;
-    line-height: 1.5em;
+    font: 100%/1.5em georgia,serif;
     box-sizing: border-box;
     overflow-y: scroll
 }
@@ -39,7 +38,7 @@ h1 {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.5rem;
-    color: hsla(0,0%,0%,0.8);
+    color: inherit;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -55,7 +54,7 @@ h2 {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.5rem;
-    color: hsla(0,0%,0%,0.8);
+    color: inherit;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -71,7 +70,7 @@ h3 {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.5rem;
-    color: hsla(0,0%,0%,0.8);
+    color: inherit;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -87,7 +86,7 @@ h4 {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.5rem;
-    color: hsla(0,0%,0%,0.8);
+    color: inherit;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -103,7 +102,7 @@ h5 {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.5rem;
-    color: hsla(0,0%,0%,0.8);
+    color: inherit;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -119,7 +118,7 @@ h6 {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.5rem;
-    color: hsla(0,0%,0%,0.8);
+    color: inherit;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
