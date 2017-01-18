@@ -16,7 +16,12 @@ body {
     color: hsla(0,0%,0%,0.8);
     font-family: georgia,serif;
     font-weight: normal;
-    word-wrap: break-word
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt"
 }
 img {
     max-width: 100%;
@@ -329,6 +334,15 @@ li > ul {
     margin-bottom: calc(1.5rem / 2);
     margin-top: calc(1.5rem / 2)
 }
+blockquote *:last-child {
+    margin-bottom: 0
+}
+li *:last-child {
+    margin-bottom: 0
+}
+p *:last-child {
+    margin-bottom: 0
+}
 code {
     font-size: 0.85rem;
     line-height: 1.5rem
@@ -361,6 +375,9 @@ td,th {
     text-align: left;
     border-bottom: 1px solid hsla(0,0%,0%,0.12);
     font-feature-settings: tnum;
+    -moz-font-feature-settings: tnum;
+    -ms-font-feature-settings: tnum;
+    -webkit-font-feature-settings: tnum;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.75rem;
