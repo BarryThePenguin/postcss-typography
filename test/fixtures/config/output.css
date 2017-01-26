@@ -343,6 +343,9 @@ li *:last-child {
 p *:last-child {
     margin-bottom: 0
 }
+li > p {
+    margin-bottom: calc(1.5rem / 2)
+}
 code {
     font-size: 0.85rem;
     line-height: 1.5rem
