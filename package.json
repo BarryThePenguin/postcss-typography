@@ -38,7 +38,7 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "remark-cli": "^2.0.0",
-    "remark-preset-wooorm": "^1.0.0",
+    "remark-preset-wooorm": "^2.0.0",
     "tap-diff": "^0.1.1",
     "tape": "^4.6.0",
     "xo": "^0.17.0"
