@@ -45,7 +45,9 @@
   },
   "remarkConfig": {
     "output": true,
-    "presets": "wooorm"
+    "plugins": [
+      "preset-wooorm"
+    ]
   },
   "xo": {
     "esnext": true
