@@ -1,16 +1,16 @@
 html {
     font: 100%/1.5em georgia,serif;
     box-sizing: border-box;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 * {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 *:before {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 *:after {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 body {
     color: hsla(0,0%,0%,0.8);
@@ -21,7 +21,7 @@ body {
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-    font-feature-settings: "kern", "liga", "clig", "calt"
+    font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
     max-width: 100%;
@@ -32,7 +32,7 @@ img {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 h1 {
     margin-left: 0;
@@ -48,7 +48,7 @@ h1 {
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2rem;
-    line-height: 2.25rem
+    line-height: 2.25rem;
 }
 h2 {
     margin-left: 0;
@@ -64,7 +64,7 @@ h2 {
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.51572rem;
-    line-height: 2.25rem
+    line-height: 2.25rem;
 }
 h3 {
     margin-left: 0;
@@ -80,7 +80,7 @@ h3 {
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.31951rem;
-    line-height: 2.25rem
+    line-height: 2.25rem;
 }
 h4 {
     margin-left: 0;
@@ -96,7 +96,7 @@ h4 {
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 }
 h5 {
     margin-left: 0;
@@ -112,7 +112,7 @@ h5 {
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.87055rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 }
 h6 {
     margin-left: 0;
@@ -128,7 +128,7 @@ h6 {
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.81225rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 }
 hgroup {
     margin-left: 0;
@@ -138,7 +138,7 @@ hgroup {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 ul {
     margin-left: 1.5rem;
@@ -150,7 +150,7 @@ ul {
     padding-top: 0;
     margin-bottom: 1.5rem;
     list-style-position: outside;
-    list-style-image: none
+    list-style-image: none;
 }
 ol {
     margin-left: 1.5rem;
@@ -162,7 +162,7 @@ ol {
     padding-top: 0;
     margin-bottom: 1.5rem;
     list-style-position: outside;
-    list-style-image: none
+    list-style-image: none;
 }
 dl {
     margin-left: 0;
@@ -172,7 +172,7 @@ dl {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 dd {
     margin-left: 0;
@@ -182,7 +182,7 @@ dd {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 p {
     margin-left: 0;
@@ -192,7 +192,7 @@ p {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 figure {
     margin-left: 0;
@@ -202,7 +202,7 @@ figure {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 pre {
     margin-left: 0;
@@ -214,7 +214,7 @@ pre {
     padding-top: 0;
     margin-bottom: 1.5rem;
     font-size: 0.85rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 }
 table {
     margin-left: 0;
@@ -228,7 +228,7 @@ table {
     font-size: 1rem;
     line-height: 1.5rem;
     border-collapse: collapse;
-    width: 100%
+    width: 100%;
 }
 fieldset {
     margin-left: 0;
@@ -238,7 +238,7 @@ fieldset {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 blockquote {
     margin-left: 1.5rem;
@@ -248,7 +248,7 @@ blockquote {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 form {
     margin-left: 0;
@@ -258,7 +258,7 @@ form {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 noscript {
     margin-left: 0;
@@ -268,7 +268,7 @@ noscript {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 iframe {
     margin-left: 0;
@@ -278,7 +278,7 @@ iframe {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 hr {
     margin-left: 0;
@@ -291,7 +291,7 @@ hr {
     margin-bottom: calc(1.5rem - 1px);
     background: hsla(0,0%,0%,0.2);
     border: none;
-    height: 1px
+    height: 1px;
 }
 address {
     margin-left: 0;
@@ -301,98 +301,98 @@ address {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 b {
-    font-weight: bold
+    font-weight: bold;
 }
 strong {
-    font-weight: bold
+    font-weight: bold;
 }
 dt {
-    font-weight: bold
+    font-weight: bold;
 }
 th {
-    font-weight: bold
+    font-weight: bold;
 }
 li {
-    margin-bottom: calc(1.5rem / 2)
+    margin-bottom: calc(1.5rem / 2);
 }
 ol li {
-    padding-left: 0
+    padding-left: 0;
 }
 ul li {
-    padding-left: 0
+    padding-left: 0;
 }
 li > ol {
     margin-left: 1.5rem;
     margin-bottom: calc(1.5rem / 2);
-    margin-top: calc(1.5rem / 2)
+    margin-top: calc(1.5rem / 2);
 }
 li > ul {
     margin-left: 1.5rem;
     margin-bottom: calc(1.5rem / 2);
-    margin-top: calc(1.5rem / 2)
+    margin-top: calc(1.5rem / 2);
 }
 blockquote *:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 li *:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 p *:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 li > p {
-    margin-bottom: calc(1.5rem / 2)
+    margin-bottom: calc(1.5rem / 2);
 }
 code {
     font-size: 0.85rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 }
 kbd {
     font-size: 0.85rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 }
 samp {
     font-size: 0.85rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 }
 abbr {
     border-bottom: 1px dotted hsla(0,0%,0%,0.5);
-    cursor: help
+    cursor: help;
 }
 acronym {
     border-bottom: 1px dotted hsla(0,0%,0%,0.5);
-    cursor: help
+    cursor: help;
 }
 abbr[title] {
     border-bottom: 1px dotted hsla(0,0%,0%,0.5);
     cursor: help;
-    text-decoration: none
+    text-decoration: none;
 }
 thead {
-    text-align: left
+    text-align: left;
 }
 td,th {
     text-align: left;
     border-bottom: 1px solid hsla(0,0%,0%,0.12);
-    font-feature-settings: tnum;
-    -moz-font-feature-settings: tnum;
-    -ms-font-feature-settings: tnum;
-    -webkit-font-feature-settings: tnum;
+    font-feature-settings: "tnum";
+    -moz-font-feature-settings: "tnum";
+    -ms-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.75rem;
-    padding-bottom: calc(0.75rem - 1px)
+    padding-bottom: calc(0.75rem - 1px);
 }
 th:first-child,td:first-child {
-    padding-left: 0
+    padding-left: 0;
 }
 th:last-child,td:last-child {
-    padding-right: 0
+    padding-right: 0;
 }
 h1,h2,h3 {
     font-size: 1lh;
-    margin: 1lh 0
+    margin: 1lh 0;
 }
