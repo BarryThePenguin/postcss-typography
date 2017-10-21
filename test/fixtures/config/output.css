@@ -1,5 +1,5 @@
 html {
-    font: 125%/1.5em EB Garamond,sans-serif;
+    font: 125%/1.5em 'EB Garamond','sans-serif';
     box-sizing: border-box;
     overflow-y: scroll;
 }
@@ -14,7 +14,7 @@ html {
 }
 body {
     color: hsla(0,0%,0%,0.8);
-    font-family: EB Garamond,sans-serif;
+    font-family: 'EB Garamond','sans-serif';
     font-weight: 400;
     word-wrap: break-word;
     font-kerning: normal;
@@ -44,7 +44,7 @@ h1 {
     padding-top: 0;
     margin-bottom: 1.5rem;
     color: inherit;
-    font-family: Open Sans,sans-serif;
+    font-family: 'Open Sans','sans-serif';
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-size: 2rem;
@@ -60,7 +60,7 @@ h2 {
     padding-top: 0;
     margin-bottom: 1.5rem;
     color: inherit;
-    font-family: Open Sans,sans-serif;
+    font-family: 'Open Sans','sans-serif';
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-size: 1.51572rem;
@@ -76,7 +76,7 @@ h3 {
     padding-top: 0;
     margin-bottom: 1.5rem;
     color: inherit;
-    font-family: Open Sans,sans-serif;
+    font-family: 'Open Sans','sans-serif';
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-size: 1.31951rem;
@@ -92,7 +92,7 @@ h4 {
     padding-top: 0;
     margin-bottom: 1.5rem;
     color: inherit;
-    font-family: Open Sans,sans-serif;
+    font-family: 'Open Sans','sans-serif';
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
@@ -108,7 +108,7 @@ h5 {
     padding-top: 0;
     margin-bottom: 1.5rem;
     color: inherit;
-    font-family: Open Sans,sans-serif;
+    font-family: 'Open Sans','sans-serif';
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-size: 0.87055rem;
@@ -124,7 +124,7 @@ h6 {
     padding-top: 0;
     margin-bottom: 1.5rem;
     color: inherit;
-    font-family: Open Sans,sans-serif;
+    font-family: 'Open Sans','sans-serif';
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-size: 0.81225rem;
